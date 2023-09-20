@@ -1,4 +1,4 @@
-use crate::{header::Header, views::home::Home};
+use crate::views::{header::Header, home::Home};
 use dioxus::prelude::*;
 use dioxus_router::prelude::*;
 

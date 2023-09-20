@@ -22,6 +22,6 @@ pub fn Home(cx: Scope) -> Element {
     let counter_state: &UsePersistent<CounterState> = use_persistent(cx, COUNTER);
     cx.render(rsx! {
         button{onclick: move |_event| counter_state.set(CounterState(counter_state.get().0 + 1)), "Add counter" }
-        div{"Home value: ", counter_state.get().0.to_string()}
+        div{"Home component value: ", counter_state.get().0.to_string()}
     })
 }

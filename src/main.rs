@@ -5,7 +5,6 @@ use dioxus::prelude::*;
 use dioxus_router::prelude::Router;
 use log::LevelFilter;
 mod constants;
-mod header;
 mod hooks;
 mod router;
 mod views;
