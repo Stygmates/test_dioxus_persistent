@@ -1,0 +1,16 @@
+[package]
+name = "test_dioxus_persistent"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+dioxus = { git = "https://github.com/dioxuslabs/dioxus" }
+dioxus-logger = "0.4.1"
+dioxus-router = { git = "https://github.com/dioxuslabs/dioxus" }
+dioxus-web = { git = "https://github.com/dioxuslabs/dioxus" }
+gloo-storage = "0.3.0"
+log = "0.4.20"
+serde = "1.0.188"
